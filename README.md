@@ -7,14 +7,14 @@ In binary target:
 
 ## Tag
 example
-git commit -am "YEOFR 0.1.1 – update URL + checksum"
-git tag 0.1.1
+git commit -am "YEOFR 0.1.8 – update URL + checksum"
+git tag 0.1.8
 git push -u origin main --tags
 
 ## Create Github Release
 Open YEOMessaging/YEOFR-SPM → Releases → Draft new → Tag 0.1.1
 Upload YEOFR.xcframework.zip
-Title: 0.1.1
+Title: 0.1.8
 Notes: bullets of changes
 Publish
 
