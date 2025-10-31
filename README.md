@@ -7,20 +7,20 @@ In binary target:
 
 ## Tag
 example
-git commit -am "YEOFR 0.1.12 – update URL + checksum"
-git tag 0.1.12
+git commit -am "YEOFR 0.1.13 – update URL + checksum"
+git tag 0.1.13
 git push -u origin main --tags
 
 ## Create Github Release
-Open YEOMessaging/YEOFR-SPM → Releases → Draft new → Tag 0.1.12
+Open YEOMessaging/YEOFR-SPM → Releases → Draft new → Tag 0.1.13
 Upload YEOFR.xcframework.zip
-Title: 0.1.12
+Title: 0.1.13
 Notes: bullets of changes
 Publish
 
 NOTE: URL/tag must match exactly or SPM will 404.
 
 ## Verify in Sample App YEOFRSampleApp
-Xcode → File → Packages → Update to Latest Package Versions (or pin to 0.1.12)
+Xcode → File → Packages → Update to Latest Package Versions (or pin to 0.1.13)
 Run on a **real device**
 Archive the app → Validate (to ensure no .a slipped into the bundle)
