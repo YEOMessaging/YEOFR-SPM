@@ -7,6 +7,7 @@ In binary target:
 
 ## Tag
 example
+git add .
 git commit -am "YEOFR 0.2.1 – update URL + checksum"
 git tag 0.2.1
 git push -u origin main --tags
